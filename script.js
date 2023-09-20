@@ -11,12 +11,17 @@ function calculateTriangularNumber() {
 
 function toggleMenu() {
     var menu = document.querySelector('.menu');
+    var aboutSection = document.querySelector('#about');
+    
     if (menu.style.display === 'none' || menu.style.display === '') {
         menu.style.display = 'block';
+        aboutSection.style.display = 'none'; // Hide the About section
     } else {
         menu.style.display = 'none';
+        aboutSection.style.display = 'block'; // Show the About section
     }
 }
+
 
 function showAbout() {
     var aboutSection = document.getElementById('about');
