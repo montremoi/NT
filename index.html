@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NT</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div>
+    <h1 class='welcome'>Bienvenue sur NT</h1>
+</div>
+<div>
+    <p class="definiton">Pour en apprendre davantage sur les <a href='https://fr.m.wikipedia.org/wiki/Nombre_triangulaire' target='_blank'>nombres triangulaires</a>!</p>
+</div>
+<div>
+    <p class="FindTriangularNumber">Trouver le nombre triangulaire associé d'un nombre ? &darr; </p>
+</div>
+<div>
+  <input type="number" id="input"/>
+  <button onclick="calculateTriangularNumber()">Calculer</button>
+  <p id="triangularResult"></p>
+</div>
+<div class="menu-button" onclick="toggleMenu()">&#9776;</div>
+<div class="menu" id="result">
+    <ul>
+        <li><a href="index.html" target="_self">Accueil</a></li>
+        <li><a href="about.html" onclick="showAbout()">À propos</a></li>
+        <li><a href="services.html" target="_self">Services</a></li>
+        <li><a href="contact.html" target="_self">Contact</a></li>
+    </ul>
+</div>
+<div id="about" style="display: none;">
+    <div>   
+      <ul>
+        <li><a href="index.html" target="_self">Accueil</a></li>
+        <li><a href="#about" onclick="showAbout()">À propos</a></li>
+        <li><a href="services.html" target="_self">Services</a></li>
+        <li><a href="contact.html" target="_self">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
