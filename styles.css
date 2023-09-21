@@ -34,9 +34,9 @@
     .box {
         
         display: inline-block;
-        width: 100px;
-        height: 100px;
-        background-color: #ccc;
+        width: 350px;
+        height: 350px;
+        background-color: blue;
         margin: 10px;
   }
       
