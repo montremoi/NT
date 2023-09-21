@@ -32,13 +32,11 @@
         margin-right:1f;
     }
     .box {
-        margin: auto
         display: inline-block;
         width: 200px;
         height: 200px;
         background-color: blue;
-        margin: 25px;
-        margin-left:35px
+        margin: 20px;
   }
       
 
