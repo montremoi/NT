@@ -38,7 +38,12 @@
         background-color: blue;
         margin: 20px;
   }
-      
+    .box-1 {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin-left: 50px;
 
     }
 
