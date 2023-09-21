@@ -39,6 +39,7 @@
         margin-right: 35px;
   }
     .box-1 {
+        verticla-align: top;
         display: inline-block;
         width: 250px;
         height: 700px;
