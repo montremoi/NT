@@ -49,7 +49,8 @@
         margin-top: 100px;
         margin-right:35px;
         overflow: hidden;
-        display: block;
+    .hidden-element {
+        display: inline-block;
 
 
     }
