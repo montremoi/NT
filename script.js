@@ -1,3 +1,17 @@
+document.addEventListener("DOMContentLoaded", function() {
+    const hiddenElement = document.querySelector(".box-1 .hidden-element");
+    const showMoreButton = document.querySelector(".box-1 .show-more-button");
+
+    showMoreButton.addEventListener("click", function() {
+        if (hiddenElement.style.display === "none" || hiddenElement.style.display === "") {
+            hiddenElement.style.display = "block";
+            showMoreButton.textContent = "Show Less";
+        } else {
+            hiddenElement.style.display = "none";
+            showMoreButton.textContent = "Show More";
+        }
+    });
+});
 function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
     let number = parseInt(input);
