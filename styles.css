@@ -57,6 +57,9 @@
       vertical-align:top;
 
     }
+    .tip {
+      font-family:'Gill Sans', sans-serif;
+    }
     .box-3 {
       background: rgb(255,89,102);
       background: linear-gradient(90deg, rgba(255,89,102,1) 0%, rgba(255,99,99,1) 50%, rgba(245,47,161,1) 100%);
