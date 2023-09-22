@@ -81,7 +81,6 @@
         padding: 0.37%;
         background: rgb(13,120,255);
         background: linear-gradient(90deg, rgba(13,120,255,1) 0%, rgba(3,168,250,1) 50%, rgba(13,120,255,1) 100%);
-        border-radius: 12px;
         width:475px;
     }
     .menu-wrapper {
