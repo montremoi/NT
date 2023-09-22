@@ -43,8 +43,8 @@
         display: inline-block;
         width: 250px;
         height: 700px;
-        background: rgb(33,93,179);
-        background: linear-gradient(90deg, rgba(33,93,179,1) 0%, rgba(95,37,210,1) 50%, rgba(67,42,255,1) 100%);
+        background: rgb(109,231,225);
+        background: linear-gradient(90deg, rgba(109,231,225,1) 0%, rgba(116,215,245,1) 50%, rgba(80,183,246,1) 100%);
         margin-left: 50px;
         margin-top: 100px;
         margin-right:35px;
@@ -54,6 +54,11 @@
       background: rgb(205,48,176);
       background: linear-gradient(90deg, rgba(205,48,176,1) 0%, rgba(200,48,218,1) 50%, rgba(230,16,240,1) 100%);
 
+
+    }
+    .box-3 {
+      background: rgb(255,89,102);
+      background: linear-gradient(90deg, rgba(255,89,102,1) 0%, rgba(255,99,99,1) 50%, rgba(245,47,161,1) 100%);
 
     }
     .defintion-nt {
