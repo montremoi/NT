@@ -58,6 +58,22 @@
       font-family: 'Gill Sans', sans-serif;
 
     }
+    .hidden-element {
+      display: none;
+      font-family: 'Gill Sans', sans-serif;
+      color: white;
+}
+
+    .show-more-button {
+      display: block;
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      z-index: 1;
+}
     .formula-explanation {
       font-family:'Gill Sans';
 
