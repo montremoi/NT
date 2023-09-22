@@ -38,7 +38,7 @@
         background-color: blue;
         margin-right: 35px;
   }
-    .box-1:hover .hidden-element {
+    .box-1 {
         vertical-align: top;
         display: inline-block;
         width: 250px;
@@ -48,12 +48,8 @@
         margin-left: 50px;
         margin-top: 100px;
         margin-right:35px;
-        overflow: hidden;
-    /* .hidden-element {
-        display: inline-block;
-
-
-    } */
+    
+    } 
     .nt-jpg {
       width: 210px;
       margin-left: 20px;
