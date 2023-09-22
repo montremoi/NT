@@ -42,7 +42,7 @@
         vertical-align: top;
         display: inline-block;
         width: 250px;
-        height: 700px;
+        height: 1000px;
         background: rgb(109,231,225);
         background: linear-gradient(90deg, rgba(109,231,225,1) 0%, rgba(116,215,245,1) 50%, rgba(80,183,246,1) 100%);
         margin-left: 50px;
@@ -56,6 +56,10 @@
     }
     .formula {
       font-family: 'Gill Sans', sans-serif;
+
+    }
+    .formula-explanation {
+      font-family:'Gill Sans';
 
     }
     .box-2 {
