@@ -49,12 +49,10 @@
         margin-right:35px;
 
     }
-    .definition-nt {
-        font-family: 'Trebuchet MS', sans-serif;
-
-
+    .defintion-nt {
+        font-family: 'Gill Sans', Sans-Serif;
+        padding-left:10px;
     }
-
     .menu {
         display: none;
      
