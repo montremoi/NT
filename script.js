@@ -1,15 +1,19 @@
 document.getElementById('showMoreButton').addEventListener('click', function() {
   var hiddenElement = document.getElementById('hiddenElement');
   var box1 = document.querySelector('.box-1');
+  var showMoreButton = document.getElementById('showMoreButton');
 
   if (hiddenElement.style.display === 'none' || hiddenElement.style.display === '') {
     hiddenElement.style.display = 'block';
-    box1.style.height = 'auto'; 
+    box1.style.height = 'auto';
+    showMoreButton.textContent = 'Afficher -';
   } else {
     hiddenElement.style.display = 'none';
     box1.style.height = 'auto';
+    showMoreButton.textContent = 'Afficher +';
   }
 });
+
 
 function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
