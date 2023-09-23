@@ -42,7 +42,7 @@
         vertical-align: top;
         display: inline-block;
         width: 250px;
-        height: 1000px;
+        height: auto;
         background: rgb(109,231,225);
         background: linear-gradient(90deg, rgba(109,231,225,1) 0%, rgba(116,215,245,1) 50%, rgba(80,183,246,1) 100%);
         margin-left: 50px;
@@ -65,8 +65,20 @@
 }
 
     .show-more-button {
-      
+      font-family: 'Gill Sans';
+      font-size: 20px;
+      background: rgb(23,120,236);
+      background: linear-gradient(101deg, rgba(23,120,236,1) 0%, rgba(63,84,255,1) 50%, rgba(69,76,255,1) 100%);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 5px;
+      margin-left:53px;
+      margin-bottom: 20px;
+      border-radius: 15px;
 }
+
     .formula-explanation {
       font-family:'Gill Sans';
 
