@@ -1,17 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const hiddenElement = document.querySelector(".box-1 .hidden-element");
-    const showMoreButton = document.querySelector(".box-1 .show-more-button");
-
-    showMoreButton.addEventListener("click", function() {
-        hiddenElement.classList.toggle("hidden");
-        
-        if (hiddenElement.classList.contains("hidden")) {
-            showMoreButton.textContent = "Show More";
-        } else {
-            showMoreButton.textContent = "Show Less";
-        }
-    });
+document.getElementById('showMoreButton').addEventListener('click', function () {
+  var hiddenElement = document.getElementById('hiddenElement');
+  if (hiddenElement.style.display === 'none') {
+    hiddenElement.style.display = 'block';
+  } else {
+    hiddenElement.style.display = 'none';
+  }
 });
+
 
 
 /* function calculateTriangularNumber() {
