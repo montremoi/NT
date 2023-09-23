@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-function calculateTriangularNumber() {
+/* function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
     let number = parseInt(input);
     let triangularNumber = 0;
@@ -36,3 +36,4 @@ function showAbout() {
     var aboutSection = document.getElementById('about');
     aboutSection.style.display = 'block';
 }
+*/
