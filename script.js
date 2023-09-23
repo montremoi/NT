@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
 /* function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
     let number = parseInt(input);
