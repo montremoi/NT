@@ -1,5 +1,5 @@
 document.getElementById('showMoreButton').addEventListener('click', showMore() {
-  var hiddenElement = document.getElementById('hiddenElement');
+  const hiddenElement = document.getElementById('hiddenElement');
   if (hiddenElement.style.display === 'none' || hiddenElement.style.display === '') {
     hiddenElement.style.display = 'block';
   } else {
