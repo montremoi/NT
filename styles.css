@@ -65,6 +65,10 @@
 }
 
     .show-more-button {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
       font-family: 'Gill Sans';
       font-size: 20px;
       background: rgb(23,120,236);
@@ -73,12 +77,8 @@
       padding: 10px 20px;
       border: none;
       cursor: pointer;
-      margin-top: 5px;
-      margin-left:53px;
-      margin-bottom: 20px;
       border-radius: 15px;
 }
-
     .formula-explanation {
       font-family:'Gill Sans';
 
