@@ -1,12 +1,11 @@
-document.getElementById('showMoreButton').addEventListener('click', function showMore() {
+document.getElementById('showMoreButton').addEventListener('click', function () {
   var hiddenElement = document.getElementById('hiddenElement');
-  if (hiddenElement.style.display === 'none') {
+  if (hiddenElement.style.display === 'none' || hiddenElement.style.display === '') {
     hiddenElement.style.display = 'block';
   } else {
     hiddenElement.style.display = 'none';
   }
 });
-
 
 
 /* function calculateTriangularNumber() {
