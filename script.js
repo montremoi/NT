@@ -1,4 +1,4 @@
-document.getElementById('showMoreButton').addEventListener('click', function () {
+document.getElementById('showMoreButton').addEventListener('click', function showMore() {
   var hiddenElement = document.getElementById('hiddenElement');
   if (hiddenElement.style.display === 'none') {
     hiddenElement.style.display = 'block';
