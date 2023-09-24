@@ -6,12 +6,12 @@ document.getElementById('showMoreButton').addEventListener('click', function() {
   if (hiddenElement.style.display === 'none' || hiddenElement.style.display === '') {
     hiddenElement.style.display = 'block';
     box1.style.height = 'auto';
-    showMoreButton.textContent = 'Afficher -';
+    showMoreButton.textContent = '-';
     hiddenElement.scrollIntoView({ behavior: 'smooth' });
   } else {
     hiddenElement.style.display = 'none';
     box1.style.height = 'auto';
-    showMoreButton.textContent = 'Afficher +';
+    showMoreButton.textContent = '+';
   }
 });
 
