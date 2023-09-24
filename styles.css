@@ -32,7 +32,7 @@
         margin-right:1f;
     }
     .box {
-        border-raduis:15px;
+        border-radius:15px;
         display: inline-block;
         width: 250px;
         height: 700px;
@@ -40,7 +40,7 @@
         margin-right: 50px;
   }
     .box-1 {
-        border-raduis:15px;
+        border-radius:15px;
         vertical-align:top;
         display:inline-block;
         width: 250px;
@@ -70,7 +70,7 @@
       bottom: -30px;
       left: 50%; 
       transform: translateX(-50%); */
-      margin-left:100px;
+      margin-left:85px;
       font-family: 'Gill Sans';
       font-size: 20px;
       background: rgb(23, 120, 236);
