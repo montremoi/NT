@@ -154,6 +154,7 @@
       border-color: white;
       color:black;
       padding: 5px;
+      border-radius:5px;
     }
     
     .user-input {
