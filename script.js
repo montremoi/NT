@@ -19,7 +19,7 @@ document.getElementById('showMoreButton').addEventListener('click', function() {
 function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
     if (input === '' || isNaN(input)) {
-        document.getElementById("triangularResult").textContent = "Nombre invalide, saisissez un nombte valide.";
+        document.getElementById("triangularResult").textContent = "Saisie invalide, entrez un nombre valide.";
         return;
     }
     let number = parseInt(input);
@@ -33,7 +33,7 @@ function calculateTriangularNumber() {
 
 
 function toggleMenu() {
-    var menu = document.getElementById("result");
+    var menu = document.getElementById("menu");
     if (menu.style.display === "none" || menu.style.display === "") {
         menu.style.display = "block";
     } else {
