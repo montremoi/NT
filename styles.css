@@ -64,10 +64,10 @@
       color: white;
 }
     .show-more-button {
-      position: absolute;
+     /*position: absolute;
       bottom: -30px;
-      left: 50%;
-      transform: translateX(-50%);
+      left: 50%; 
+      transform: translateX(-50%); */
       font-family: 'Gill Sans';
       font-size: 20px;
       background: rgb(23, 120, 236);
