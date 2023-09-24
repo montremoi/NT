@@ -7,6 +7,7 @@ document.getElementById('showMoreButton').addEventListener('click', function() {
     hiddenElement.style.display = 'block';
     box1.style.height = 'auto';
     showMoreButton.textContent = 'Afficher -';
+    hiddenElement.scrollIntoView({ behavior: 'smooth' });
   } else {
     hiddenElement.style.display = 'none';
     box1.style.height = 'auto';
