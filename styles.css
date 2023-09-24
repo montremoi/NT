@@ -148,6 +148,12 @@
       vertical-align:top;
 
     }
+    .calculate-button {
+      margin-left:7px;
+      background-color:cyan;
+      color:white;
+    }
+    
     .user-input {
       background-color:purple;
       align-items: center;
