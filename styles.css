@@ -151,6 +151,9 @@
     .user-input {
       background-color:purple;
       align-items: center;
+      margin-left:50px;
+      width: 70px;
+      height:15px;
     }
 
     .tip {
