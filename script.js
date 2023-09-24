@@ -18,6 +18,10 @@ document.getElementById('showMoreButton').addEventListener('click', function() {
 
 function calculateTriangularNumber() {
     let input = document.getElementById("input").value;
+    if (input === '' || isNaN(input)) {
+        document.getElementById("triangularResult").textContent = "Nombre invalide, saisissez un nombte valide.";
+        return;
+    }
     let number = parseInt(input);
     let triangularNumber = 0;
     for (let i = 1; i <= number; i++) {
@@ -26,6 +30,7 @@ function calculateTriangularNumber() {
     document.getElementById("triangularResult").textContent = `Le nombre triangulaire associé à ${number} est ${triangularNumber}`;
     document.getElementById("result").textContent = `Le nombre triangulaire associé à ${number} est ${triangularNumber}`;
 }
+
 
 function toggleMenu() {
     var menu = document.getElementById("result");
