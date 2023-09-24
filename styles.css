@@ -148,6 +148,11 @@
       vertical-align:top;
 
     }
+    .user -input {
+      background-color:purple;
+      align-items: center;
+    }
+
     .tip {
       font-family:'Gill Sans', sans-serif;
     }
