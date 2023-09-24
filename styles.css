@@ -32,21 +32,23 @@
         margin-right:1f;
     }
     .box {
+        border-raduis:15px;
         display: inline-block;
         width: 250px;
         height: 700px;
         background-color: blue;
-        margin-right: 35px;
+        margin-right: 50px;
   }
     .box-1 {
-        vertical-align: top;
-        display: inline-block;
+        border-raduis:15px;
+        vertical-align:top;
+        display:inline-block;
         width: 250px;
-        height: auto;
-        background: rgb(109,231,225);
-        background: linear-gradient(90deg, rgba(109,231,225,1) 0%, rgba(116,215,245,1) 50%, rgba(80,183,246,1) 100%);
-        margin-left: 50px;
-        margin-top: 100px;
+        height:auto;
+        background:rgb(109,231,225);
+        background:linear-gradient(90deg, rgba(109,231,225,1) 0%, rgba(116,215,245,1) 50%, rgba(80,183,246,1) 100%);
+        margin-left:50px;
+        margin-top:100px;
         margin-right:35px;
     
     } 
