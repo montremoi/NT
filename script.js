@@ -1,4 +1,5 @@
-document.getElementById('showMoreButton').addEventListener('click', function() {
+window.alert("Accés autorisé")
+  document.getElementById('showMoreButton').addEventListener('click', function() {
   var hiddenElement = document.getElementById('hiddenElement');
   var box1 = document.querySelector('.box-1');
   var showMoreButton = document.getElementById('showMoreButton');
