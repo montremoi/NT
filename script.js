@@ -1,4 +1,4 @@
-window.alert("🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙")
+//window.alert("🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙")
   document.getElementById('showMoreButton').addEventListener('click', function() {
   var hiddenElement = document.getElementById('hiddenElement');
   var box1 = document.querySelector('.box-1');
