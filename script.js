@@ -1,4 +1,4 @@
-//window.alert("🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙🥙")
+//window.alert("PopUp")
   document.getElementById('showMoreButton').addEventListener('click', function() {
   var hiddenElement = document.getElementById('hiddenElement');
   var box1 = document.querySelector('.box-1');
@@ -37,17 +37,33 @@ document.addEventListener('DOMContentLoaded', function () {
     const messageInput = document.getElementById('message-input');
     const sendButton = document.getElementById('send-button');
 
-    sendButton.addEventListener('click', function () {
-        const messageText = messageInput.value;
-        if (messageText.trim() !== '') {
-            const messageElement = document.createElement('div');
-            messageElement.className = 'message';
-            messageElement.textContent = messageText;
+    const storedMessages = JSON.parse(localStorage.getItem('chatMessages')) || [];
 
-            chatMessages.appendChild(messageElement);
-            messageInput.value = '';
+    function saveMessagesToStorage(messages) {
+        localStorage.setItem('chatMessages', JSON.stringify(messages));
+    }
 
-            chatMessages.scrollTop = chatMessages.scrollHeight;
+    for (const messageText of storedMessages) {
+        const messageElement = document.createElement('div');
+        messageElement.className = 'message';
+        messageElement.textContent = messageText;
+        chatMessages.appendChild(messageElement);
+    }
+
+sendButton.addEventListener('click', function () {
+    const messageText = messageInput.value;
+    if (messageText.trim() !== '') {
+      const messageElement = document.createElement('div');
+      messageElement.className = 'message';
+      messageElement.textContent = messageText;
+
+    chatMessages.appendChild(messageElement);
+
+    storedMessages.push(messageText);
+    saveMessagesToStorage(storedMessages);
+
+    messageInput.value = '';
+    chatMessages.scrollTop = chatMessages.scrollHeight;
         }
     });
 });
