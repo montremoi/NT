@@ -176,6 +176,10 @@
       background: linear-gradient(90deg, rgba(255,89,102,1) 0%, rgba(255,99,99,1) 50%, rgba(245,47,161,1) 100%);
 
     }
+    
+    chat-style {
+      font-family:'Gill Sans';
+      }
     .defintion-nt {
         font-family: 'Gill Sans', Sans-Serif;
         padding-left:10px;
