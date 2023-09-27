@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function () {
         messageElement.textContent = messageText;
         chatMessages.appendChild(messageElement);
     }
-}); */
+}); 
 
 document.addEventListener('DOMContentLoaded', function () {
     const chatMessages = document.getElementById('chat-messages');
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-/* const socket = io();
+const socket = io();
 
     const messageInput = document.getElementById('message-input');
     const sendButton = document.getElementById('send-button');
