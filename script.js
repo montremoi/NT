@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
-const socket = io();
+/* const socket = io();
 
     const messageInput = document.getElementById('message-input');
     const sendButton = document.getElementById('send-button');
@@ -119,7 +119,7 @@ const socket = io();
         const messageElement = document.createElement('div');
         messageElement.textContent = message;
         chatMessages.appendChild(messageElement);
-    });
+    }); */
 function toggleMenu() {
     var menu = document.getElementById("menu");
     if (menu.style.display === "none" || menu.style.display === "") {
