@@ -68,6 +68,21 @@ sendButton.addEventListener('click', function () {
     });
 });
  */
+
+document.addEventListener('DOMContentLoaded', function () {
+    const chatMessages = document.getElementById('chat');
+    const messageInput = document.getElementById('message-input');
+    const sendButton = document.getElementById('send-button');
+
+    function appendMessage(messageText) {
+        
+        const messageElement = document.createElement('div');
+        messageElement.className = 'message';
+        messageElement.textContent = messageText;
+        chatMessages.appendChild(messageElement);
+    }
+});
+
 function toggleMenu() {
     var menu = document.getElementById("menu");
     if (menu.style.display === "none" || menu.style.display === "") {
