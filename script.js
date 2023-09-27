@@ -67,7 +67,7 @@ sendButton.addEventListener('click', function () {
         }
     });
 });
- */
+ 
 
 document.addEventListener('DOMContentLoaded', function () {
     const chatMessages = document.getElementById('chat');
@@ -81,6 +81,27 @@ document.addEventListener('DOMContentLoaded', function () {
         messageElement.textContent = messageText;
         chatMessages.appendChild(messageElement);
     }
+}); */
+
+document.addEventListener('DOMContentLoaded', function () {
+    const chatMessages = document.getElementById('chat-messages');
+    const messageInput = document.getElementById('message-input');
+    const sendButton = document.getElementById('send-button');
+
+    function appendMessage(messageText) {
+        const messageElement = document.createElement('div');
+        messageElement.className = 'message';
+        messageElement.textContent = messageText;
+        chatMessages.appendChild(messageElement);
+    }
+
+    sendButton.addEventListener('click', function () {
+        const messageText = messageInput.value;
+        if (messageText.trim() !== '') {
+            appendMessage(messageText);
+            messageInput.value = '';
+        }
+    });
 });
 
 function toggleMenu() {
