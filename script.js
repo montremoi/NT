@@ -103,7 +103,23 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+const socket = io();
 
+    const messageInput = document.getElementById('message-input');
+    const sendButton = document.getElementById('send-button');
+    const chatMessages = document.getElementById('chat-messages');
+
+    sendButton.addEventListener('click', () => {
+        const message = messageInput.value;
+        socket.emit('message', message); 
+        messageInput.value = '';
+    });
+
+    socket.on('message', (message) => {
+        const messageElement = document.createElement('div');
+        messageElement.textContent = message;
+        chatMessages.appendChild(messageElement);
+    });
 function toggleMenu() {
     var menu = document.getElementById("menu");
     if (menu.style.display === "none" || menu.style.display === "") {
