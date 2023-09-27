@@ -32,7 +32,7 @@ function calculateTriangularNumber() {
     document.getElementById("result").textContent = `Le nombre triangulaire associé à ${number} est ${triangularNumber}`;
 }
 
-document.addEventListener('DOMContentLoaded', function () {
+/* document.addEventListener('DOMContentLoaded', function () {
     const chatMessages = document.getElementById('chat-messages');
     const messageInput = document.getElementById('message-input');
     const sendButton = document.getElementById('send-button');
@@ -67,7 +67,7 @@ sendButton.addEventListener('click', function () {
         }
     });
 });
-
+ */
 function toggleMenu() {
     var menu = document.getElementById("menu");
     if (menu.style.display === "none" || menu.style.display === "") {
