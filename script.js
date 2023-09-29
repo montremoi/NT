@@ -1,4 +1,4 @@
-window.alert("Ce site sera bientôt supprimé ")
+window.alert("Ce site sera bientôt supprimé")
   document.getElementById('showMoreButton').addEventListener('click', function() {
   var hiddenElement = document.getElementById('hiddenElement');
   var box1 = document.querySelector('.box-1');
