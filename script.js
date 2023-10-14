@@ -134,3 +134,9 @@ function showAbout() {
     aboutSection.style.display = 'block';
 }
 
+
+document.getElementById("send-button").onclick = function() {
+      userinput = document.getElementById("message-input").value;
+      document.getElementById("message").innerHTML = userinput;
+    }
+
